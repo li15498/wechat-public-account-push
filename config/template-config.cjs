@@ -6,11 +6,11 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
+      下个休息日：{{周一.DATA}}
       
       ---
       
-      城市：{{city.DATA}}
+      城市：{{合肥.DATA}}
       
       天气：{{weather.DATA}}
       
@@ -24,7 +24,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们相识的第{{276.DATA}}天
       
       {{birthday_message.DATA}}
       
